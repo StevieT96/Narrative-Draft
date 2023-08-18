@@ -3943,7 +3943,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 63f1b7f0e8efd4b48a9ffd72de567880, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 858cf29a8f0bba64082a80f87b1babe9, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -3962,8 +3962,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 949190168}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.00491333, y: 0.033798218, z: 0}
-  m_LocalScale: {x: 1.3918974, y: 1.2986962, z: 1}
+  m_LocalPosition: {x: -0.0859, y: 0.033798218, z: 0}
+  m_LocalScale: {x: 1.6540151, y: 1.2986962, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -4060,7 +4060,7 @@ GameObject:
   - component: {fileID: 974776387}
   - component: {fileID: 974776386}
   - component: {fileID: 974776385}
-  - component: {fileID: 974776384}
+  - component: {fileID: 974776388}
   m_Layer: 0
   m_Name: Scene 2 Flow
   m_TagString: Untagged
@@ -4068,21 +4068,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &974776384
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974776383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d2f6487d21a03404cb21b245f0242e79, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  parentBlock: {fileID: 974776385}
-  suppressBlockAutoSelect: 0
-  waitForFrames: 1
 --- !u!114 &974776385
 MonoBehaviour:
   m_ObjectHideFlags: 2
@@ -4106,8 +4091,9 @@ MonoBehaviour:
   itemId: 0
   blockName: New Block
   description: 
-  eventHandler: {fileID: 974776384}
-  commandList: []
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 974776388}
   suppressAllAutoSelections: 0
 --- !u!114 &974776386
 MonoBehaviour:
@@ -4135,7 +4121,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 974776385}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 974776388}
   variables: []
   description: 
   stepPause: 0
@@ -4162,6 +4149,31 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &974776388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 1
+  indentLevel: 0
+  duration: 1
+  fadeOut: 1
+  targetView: {fileID: 1882151250}
+  waitUntilFinished: 1
+  fadeColor: {r: 0, g: 0, b: 0, a: 1}
+  fadeTexture: {fileID: 0}
+  targetCamera: {fileID: 0}
+  fadeTweenType: 4
+  orthoSizeTweenType: 4
+  posTweenType: 4
+  rotTweenType: 4
 --- !u!1 &987751276
 GameObject:
   m_ObjectHideFlags: 0
