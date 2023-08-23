@@ -4067,9 +4067,13 @@ GameObject:
   - component: {fileID: 974776401}
   - component: {fileID: 974776400}
   - component: {fileID: 974776403}
+  - component: {fileID: 974776410}
+  - component: {fileID: 974776409}
+  - component: {fileID: 974776408}
+  - component: {fileID: 974776407}
+  - component: {fileID: 974776406}
   - component: {fileID: 974776405}
   - component: {fileID: 974776404}
-  - component: {fileID: 974776406}
   m_Layer: 0
   m_Name: Scene2 Flow
   m_TagString: Untagged
@@ -4104,7 +4108,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 974776402}
   selectedCommands:
-  - {fileID: 974776406}
+  - {fileID: 974776404}
   variables: []
   description: 
   stepPause: 0
@@ -4257,7 +4261,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: So you, the witch and the girl set off into town.
+  storyText: So you set off into town.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4284,8 +4288,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 76
-    y: 245
+    x: 86
+    y: 222
     width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -4297,9 +4301,12 @@ MonoBehaviour:
   commandList:
   - {fileID: 974776400}
   - {fileID: 974776401}
+  - {fileID: 974776408}
+  - {fileID: 974776409}
+  - {fileID: 974776407}
+  - {fileID: 974776406}
   - {fileID: 974776405}
   - {fileID: 974776404}
-  - {fileID: 974776406}
   suppressAllAutoSelections: 0
 --- !u!114 &974776403
 MonoBehaviour:
@@ -4325,27 +4332,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 974776383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 18
+  itemId: 26
   indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
+  storyText: Pretty much.
+  description: 
   character: {fileID: 1225800865}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 57f966464351bcc4dbbd3b8e960c602d, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 31383563}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &974776405
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4355,27 +4359,24 @@ MonoBehaviour:
   m_GameObject: {fileID: 974776383}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 17
+  itemId: 25
   indentLevel: 0
-  display: 1
-  stage: {fileID: 0}
-  character: {fileID: 1664493142}
-  replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: a70c21a584e22144c98fc205e97c6453, type: 3}
-  offset: 0
-  fromPosition: {fileID: 0}
-  toPosition: {fileID: 613827002}
-  facing: 0
-  useDefaultSettings: 1
-  fadeDuration: 0.5
-  moveDuration: 1
-  shiftOffset: {x: 0, y: 0}
-  move: 0
-  shiftIntoPlace: 0
-  waitUntilFinished: 0
+  storyText: So i'm technically a shield to ward him off for you eh?
+  description: 
+  character: {fileID: 707668482}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
 --- !u!114 &974776406
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4388,21 +4389,131 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  itemId: 19
+  itemId: 24
   indentLevel: 0
-  storyText: It's a lovely day today, im glad i could go out
+  storyText: Better than the hero finding me and trying to do something perverted.
   description: 
-  character: {fileID: 1664493142}
+  character: {fileID: 1225800865}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
   extendPrevious: 0
-  fadeWhenDone: 0
+  fadeWhenDone: 1
   waitForClick: 1
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &974776407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 23
+  indentLevel: 0
+  storyText: You sure you're alright with following me around?
+  description: 
+  character: {fileID: 707668482}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &974776408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 22
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1225800865}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 480ece5ace5a96a4197a65a0f259013b, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 263328588}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &974776409
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 21
+  indentLevel: 0
+  storyText: With the witch on tow.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &974776410
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: 76
+    y: 292
+    width: 111
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 20
+  blockName: New Block
+  description: 
+  eventHandler: {fileID: 0}
+  commandList: []
+  suppressAllAutoSelections: 0
 --- !u!1 &987751276
 GameObject:
   m_ObjectHideFlags: 0
