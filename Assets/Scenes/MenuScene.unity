@@ -2129,7 +2129,6 @@ GameObject:
   - component: {fileID: 1887922371}
   - component: {fileID: 1887922377}
   - component: {fileID: 1887922376}
-  - component: {fileID: 1887922379}
   - component: {fileID: 1887922378}
   - component: {fileID: 1887922380}
   m_Layer: 0
@@ -2232,7 +2231,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1887922373}
+  - {fileID: 1887922377}
   selectedCommands: []
   variables: []
   description: 
@@ -2276,7 +2275,7 @@ MonoBehaviour:
   indentLevel: 0
   _sceneName:
     stringRef: {fileID: 0}
-    stringVal: SampleScene
+    stringVal: Scene1
   loadingImage: {fileID: 0}
   sceneNameOLD: 
 --- !u!114 &1887922377
@@ -2293,8 +2292,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: -5.263069
-    y: 162.87552
+    x: 73.68425
+    y: 169.4545
     width: 109.21051
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -2309,7 +2308,7 @@ MonoBehaviour:
   suppressAllAutoSelections: 0
 --- !u!114 &1887922378
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2323,7 +2322,7 @@ MonoBehaviour:
   indentLevel: 0
   text: Exit
   description: 
-  targetBlock: {fileID: 1887922379}
+  targetBlock: {fileID: 0}
   hideIfVisited: 0
   interactable:
     booleanRef: {fileID: 0}
@@ -2332,35 +2331,9 @@ MonoBehaviour:
   hideThisOption:
     booleanRef: {fileID: 0}
     booleanVal: 0
---- !u!114 &1887922379
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1887922370}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nodeRect:
-    serializedVersion: 2
-    x: 138.15779
-    y: 162.87555
-    width: 115.78945
-    height: 40
-  tint: {r: 1, g: 1, b: 1, a: 1}
-  useCustomTint: 0
-  itemId: 4
-  blockName: New Block1
-  description: 
-  eventHandler: {fileID: 0}
-  commandList: []
-  suppressAllAutoSelections: 0
 --- !u!114 &1887922380
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
