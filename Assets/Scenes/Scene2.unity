@@ -4715,7 +4715,7 @@ GameObject:
   - component: {fileID: 1163455886}
   - component: {fileID: 1163455885}
   m_Layer: 0
-  m_Name: Girl
+  m_Name: May
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4733,7 +4733,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 25fb867d2049d41f597aefdd6b19f598, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  nameText: Girl
+  nameText: May
   nameColor: {r: 0.21960786, g: 0.21960786, b: 0.21960786, a: 1}
   soundEffect: {fileID: 0}
   portraits:
@@ -8036,6 +8036,17 @@ GameObject:
   - component: {fileID: 2926088673985972287}
   - component: {fileID: 2926088673985972291}
   - component: {fileID: 2926088673985972290}
+  - component: {fileID: 2926088673985972298}
+  - component: {fileID: 2926088673985972297}
+  - component: {fileID: 2926088673985972296}
+  - component: {fileID: 2926088673985972294}
+  - component: {fileID: 2926088673985972293}
+  - component: {fileID: 2926088673985972292}
+  - component: {fileID: 2926088673985972302}
+  - component: {fileID: 2926088673985972301}
+  - component: {fileID: 2926088673985972300}
+  - component: {fileID: 2926088673985972299}
+  - component: {fileID: 2926088673985972295}
   m_Layer: 0
   m_Name: Scene2Flow
   m_TagString: MainFlowchart
@@ -8215,7 +8226,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1163455885}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: da19c3ef6fa993f4bbb1a3a27740e0f2, type: 3}
+  portrait: {fileID: 21300000, guid: 4772f92041c6737498d2936ba0842628, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 189031587}
@@ -8719,8 +8730,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 396.47418
-    y: 234.78166
+    x: 406.47412
+    y: 223.35307
     width: 104.28573
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8730,9 +8741,13 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 2926088673985972280}
+  - {fileID: 2926088673985972302}
   - {fileID: 2926088673985972279}
   - {fileID: 2926088673985972278}
+  - {fileID: 2926088673985972301}
+  - {fileID: 2926088673985972299}
+  - {fileID: 2926088673985972300}
+  - {fileID: 2926088673985972280}
   - {fileID: 2926088673985972291}
   - {fileID: 2926088673985972289}
   - {fileID: 2926088673985972277}
@@ -8770,7 +8785,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 195
   indentLevel: 0
-  storyText: Okay!
+  storyText: Aww, I was gonna get all this fancy stuff.
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -8801,7 +8816,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1163455885}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 48c1d3ceb2dfca04c83e059c86d8a052, type: 3}
+  portrait: {fileID: 21300000, guid: 97ff1d0f05f204d4a8dcbdf328ee9f49, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -8827,10 +8842,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: I'll take you shopping, I'll buy you whatever you want...As long as
-    it's in my budget.
+  storyText: The manager hesitates slightly at her item options, but they decide
+    to take her out anyway.
   description: 
-  character: {fileID: 1528113432}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -8880,8 +8895,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 196.47476
-    y: 239.06738
+    x: 193.61761
+    y: 236.21024
     width: 85.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -8894,6 +8909,13 @@ MonoBehaviour:
   - {fileID: 2926088673985972285}
   - {fileID: 2926088673985972284}
   - {fileID: 2926088673985972283}
+  - {fileID: 2926088673985972298}
+  - {fileID: 2926088673985972297}
+  - {fileID: 2926088673985972296}
+  - {fileID: 2926088673985972295}
+  - {fileID: 2926088673985972294}
+  - {fileID: 2926088673985972293}
+  - {fileID: 2926088673985972292}
   - {fileID: 2926088673985972290}
   - {fileID: 2926088673985972288}
   - {fileID: 2926088673985972287}
@@ -8912,7 +8934,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 199
   indentLevel: 0
-  storyText: Yeah!
+  storyText: Oooh! I wander what I should get?
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -8943,7 +8965,7 @@ MonoBehaviour:
   stage: {fileID: 0}
   character: {fileID: 1163455885}
   replacedCharacter: {fileID: 0}
-  portrait: {fileID: 21300000, guid: 48c1d3ceb2dfca04c83e059c86d8a052, type: 3}
+  portrait: {fileID: 21300000, guid: f12fe419176513044a80b57ded9c4aba, type: 3}
   offset: 0
   fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
@@ -8971,7 +8993,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: We should go celebrate! I'll buy you some lunch.
   description: 
-  character: {fileID: 0}
+  character: {fileID: 1528113432}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -9090,13 +9112,13 @@ MonoBehaviour:
   portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
-  toPosition: {fileID: 0}
+  toPosition: {fileID: 910979445}
   facing: 0
   useDefaultSettings: 1
   fadeDuration: 0.5
   moveDuration: 1
   shiftOffset: {x: 0, y: 0}
-  move: 0
+  move: 1
   shiftIntoPlace: 0
   waitUntilFinished: 0
 --- !u!114 &2926088673985972291
@@ -9120,6 +9142,117 @@ MonoBehaviour:
   portrait: {fileID: 0}
   offset: 0
   fromPosition: {fileID: 0}
+  toPosition: {fileID: 910979445}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2926088673985972292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 212
+  indentLevel: 0
+  storyText: And so the manager and May head out into town.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972293
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 211
+  indentLevel: 0
+  storyText: Whatever you want, it's your day after all.
+  description: 
+  character: {fileID: 1528113432}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 210
+  indentLevel: 0
+  storyText: Hehe...I'll try not to. Maybe ramen!
+  description: 
+  character: {fileID: 1163455885}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972295
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 217
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1163455885}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 48c1d3ceb2dfca04c83e059c86d8a052, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
   toPosition: {fileID: 0}
   facing: 0
   useDefaultSettings: 1
@@ -9129,3 +9262,197 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
+--- !u!114 &2926088673985972296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 209
+  indentLevel: 0
+  storyText: Since they're relatively new at the job, they don't get paid as much
+    as the more experienced personnel in the industry.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972297
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 208
+  indentLevel: 0
+  storyText: 'The manager thinks about their budgeting. '
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972298
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 207
+  indentLevel: 0
+  storyText: Eheh, don't try to wring my wallet dry...
+  description: 
+  character: {fileID: 1528113432}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972299
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 216
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 1163455885}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: 48c1d3ceb2dfca04c83e059c86d8a052, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 0}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &2926088673985972300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 215
+  indentLevel: 0
+  storyText: I was going to get some figurines and clothes!
+  description: 
+  character: {fileID: 1163455885}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972301
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 214
+  indentLevel: 0
+  storyText: Like what?
+  description: 
+  character: {fileID: 1528113432}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &2926088673985972302
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 213
+  indentLevel: 0
+  storyText: I'll take you shopping, I'll buy you whatever you want...As long as
+    it's in my budget.
+  description: 
+  character: {fileID: 1528113432}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
