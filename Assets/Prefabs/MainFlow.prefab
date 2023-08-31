@@ -55,7 +55,6 @@ GameObject:
   - component: {fileID: 761310852613209828}
   - component: {fileID: 761310852613209829}
   - component: {fileID: 761310852613209827}
-  - component: {fileID: 761310852613209826}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -104,7 +103,8 @@ MonoBehaviour:
     height: 859
   selectedBlocks:
   - {fileID: 761310852613209801}
-  selectedCommands: []
+  selectedCommands:
+  - {fileID: 0}
   variables: []
   description: 
   stepPause: 0
@@ -200,7 +200,7 @@ MonoBehaviour:
   description: 
   eventHandler: {fileID: 0}
   commandList:
-  - {fileID: 761310852613209826}
+  - {fileID: 0}
   - {fileID: 761310852613209805}
   - {fileID: 2926088672950007540}
   - {fileID: 761310852613209844}
@@ -1321,28 +1321,3 @@ MonoBehaviour:
   move: 0
   shiftIntoPlace: 0
   waitUntilFinished: 0
---- !u!114 &761310852613209826
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2926088672950007546}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 437f9a4e3dbc647f9bdce95308418bff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 58
-  indentLevel: 0
-  duration: 1
-  fadeOut: 1
-  targetView: {fileID: 0}
-  waitUntilFinished: 1
-  fadeColor: {r: 0, g: 0, b: 0, a: 1}
-  fadeTexture: {fileID: 0}
-  targetCamera: {fileID: 0}
-  fadeTweenType: 4
-  orthoSizeTweenType: 4
-  posTweenType: 4
-  rotTweenType: 4
