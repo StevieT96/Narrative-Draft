@@ -267,7 +267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18568753}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
@@ -8003,7 +8003,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 761310851510046622}
   selectedCommands:
-  - {fileID: 2926088673985972258}
+  - {fileID: 2926088673985972307}
   variables: []
   description: 
   stepPause: 0
@@ -8379,8 +8379,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: It is  shown on the table that there is a torn open letter with the
-    paper unfolded.
+  storyText: It is shown on the table that there is a torn open letter with the paper
+    unfolded.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9626,7 +9626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 221
   indentLevel: 0
-  storyText: The letter states "To May... Congratulations, you've passed the audition
+  storyText: The letter states "To May... Congratulations! You've passed the audition
     and have gotten the role of the Hero's Ninja. Filming starts soon so be ready
     for it."
   description: 

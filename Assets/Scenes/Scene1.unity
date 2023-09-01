@@ -267,7 +267,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 18568753}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c4782cf42f2644447b9631f6e522160b, type: 3}
   m_Name: 
@@ -8122,10 +8122,8 @@ MonoBehaviour:
     y: -340
     width: 1114
     height: 859
-  selectedBlocks:
-  - {fileID: 761310851510046622}
-  selectedCommands:
-  - {fileID: 2926088673985972375}
+  selectedBlocks: []
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -9341,7 +9339,7 @@ MonoBehaviour:
   itemId: 210
   indentLevel: 0
   storyText: Both the manager and May end up feeling a bit more comfortable and ready
-    for the audition. Then soon after.
+    for the audition. then soon after...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9645,8 +9643,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 192.1887
-    y: 233.35309
+    x: 190.76013
+    y: 230.49594
     width: 102.85716
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -10037,7 +10035,7 @@ MonoBehaviour:
   itemId: 240
   indentLevel: 0
   storyText: Both the manager and May end up feeling a bit more comfortable and ready
-    for the audition. Then soon after.
+    for the audition, then soon after...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -12032,7 +12030,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2926088673985972375
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
