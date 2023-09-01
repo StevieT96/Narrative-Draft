@@ -408,7 +408,8 @@ MonoBehaviour:
   nameText: Security
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
-  portraits: []
+  portraits:
+  - {fileID: 21300000, guid: f2e1bac82cd386b4f9c3b90b03929e1c, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 
@@ -4448,6 +4449,11 @@ GameObject:
   - component: {fileID: 974776502}
   - component: {fileID: 974776501}
   - component: {fileID: 974776503}
+  - component: {fileID: 974776506}
+  - component: {fileID: 974776508}
+  - component: {fileID: 974776507}
+  - component: {fileID: 974776509}
+  - component: {fileID: 974776510}
   m_Layer: 0
   m_Name: Scene3 Flow
   m_TagString: Untagged
@@ -4482,7 +4488,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 974776402}
   selectedCommands:
-  - {fileID: 974776489}
+  - {fileID: 974776510}
   variables: []
   description: 
   stepPause: 0
@@ -4703,8 +4709,11 @@ MonoBehaviour:
   - {fileID: 974776436}
   - {fileID: 974776435}
   - {fileID: 974776434}
+  - {fileID: 974776508}
   - {fileID: 974776433}
   - {fileID: 974776432}
+  - {fileID: 974776507}
+  - {fileID: 974776506}
   - {fileID: 974776490}
   - {fileID: 974776504}
   - {fileID: 974776491}
@@ -4766,6 +4775,8 @@ MonoBehaviour:
   - {fileID: 974776503}
   - {fileID: 974776502}
   - {fileID: 974776501}
+  - {fileID: 974776510}
+  - {fileID: 974776509}
   suppressAllAutoSelections: 0
 --- !u!114 &974776408
 MonoBehaviour:
@@ -7073,7 +7084,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 104
   indentLevel: 0
-  storyText: Thank you, thank you, making my way through...
+  storyText: '{flash 0.5, 0.5}Thank you, thank you, making my way through...{flash
+    0.5, 0.5}'
   description: 
   character: {fileID: 2088225274}
   portrait: {fileID: 0}
@@ -7131,7 +7143,7 @@ MonoBehaviour:
   itemId: 115
   indentLevel: 0
   storyText: But it doesn't matter for May. She's achieved one of her goals, and
-    is over the moon.
+    she is over the moon.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7204,8 +7216,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 112
   indentLevel: 0
-  storyText: The state of things... Sometimes I question why I go have attend these
-    events.
+  storyText: The state of things... Sometimes I question why these events have to
+    be mandatory for us...
   description: 
   character: {fileID: 567257113}
   portrait: {fileID: 0}
@@ -7232,7 +7244,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 113
   indentLevel: 0
-  storyText: OOHH! I love you!
+  storyText: '{flash 0.5, 0.5} OOHH! I love you! {flash 0.5, 0.5}'
   description: 
   character: {fileID: 232606371}
   portrait: {fileID: 0}
@@ -7245,6 +7257,126 @@ MonoBehaviour:
   stopVoiceover: 1
   waitForVO: 0
   setSayDialog: {fileID: 0}
+--- !u!114 &974776506
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 117
+  indentLevel: 0
+  storyText: '{punch=10,0.5} I''ll come baaack! Please give me a kiss next tiiime!!'
+  description: 
+  character: {fileID: 232606371}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &974776507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 119
+  indentLevel: 0
+  display: 2
+  stage: {fileID: 0}
+  character: {fileID: 136064421}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 0}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 1667833049}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 1
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &974776508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ac5ce55bc698fa4290939ef6e426501, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 118
+  indentLevel: 0
+  display: 1
+  stage: {fileID: 0}
+  character: {fileID: 136064421}
+  replacedCharacter: {fileID: 0}
+  portrait: {fileID: 21300000, guid: f2e1bac82cd386b4f9c3b90b03929e1c, type: 3}
+  offset: 0
+  fromPosition: {fileID: 0}
+  toPosition: {fileID: 263328588}
+  facing: 0
+  useDefaultSettings: 1
+  fadeDuration: 0.5
+  moveDuration: 1
+  shiftOffset: {x: 0, y: 0}
+  move: 0
+  shiftIntoPlace: 0
+  waitUntilFinished: 0
+--- !u!114 &974776509
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 120
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: Scene4
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
+--- !u!114 &974776510
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b359b09a7ba2e4af981f07c07f8af85a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 121
+  indentLevel: 0
 --- !u!1 &987751276
 GameObject:
   m_ObjectHideFlags: 0

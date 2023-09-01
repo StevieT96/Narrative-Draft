@@ -7959,7 +7959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.6173
     y: 170.49594
-    width: 89.473694
+    width: 92.857155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8004,8 +8004,8 @@ MonoBehaviour:
   - {fileID: 2926088673985972370}
   - {fileID: 2926088673985972258}
   - {fileID: 2926088673985972324}
-  - {fileID: 2926088673985972255}
   - {fileID: 2926088673985972256}
+  - {fileID: 2926088673985972255}
   - {fileID: 2926088673985972254}
   - {fileID: 2926088673985972287}
   - {fileID: 2926088673985972369}
@@ -8110,11 +8110,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -153.5908, y: 53.06597}
+  scrollPos: {x: -156.1472, y: 95.20882}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 412
-  zoom: 0.75999975
+  zoom: 0.6999998
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -8122,9 +8122,9 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 761310851510046622}
+  - {fileID: 2926088673985972351}
   selectedCommands:
-  - {fileID: 2926088673985972259}
+  - {fileID: 2926088673985972329}
   variables: []
   description: 
   stepPause: 0
@@ -8152,7 +8152,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.53882
     y: 52.959244
-    width: 89.473694
+    width: 91.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9592,7 +9592,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.18863
     y: 314.7822
-    width: 93.42107
+    width: 97.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9645,7 +9645,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 192.1887
     y: 233.35309
-    width: 101.31581
+    width: 102.85716
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9713,7 +9713,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 425.04556
     y: 229.06737
-    width: 92.10528
+    width: 95.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11237,7 +11237,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.18875
     y: 411.9246
-    width: 97.36844
+    width: 100.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11267,8 +11267,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 291
   indentLevel: 0
-  storyText: Because I always wanted since I was a child to be a role like this one
-    and this is my prime opportunity to do so.
+  storyText: Because I always wanted since I was a child to be in a role like this
+    one and this is my prime opportunity to do so.
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -11324,7 +11324,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 172.07587
     y: 397.75153
-    width: 90.78949
+    width: 92.857155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11409,7 +11409,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 456.4742
     y: 396.21014
-    width: 102.63159
+    width: 105.7143
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11471,7 +11471,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.55734
     y: 508.6164
-    width: 102.63159
+    width: 107.14287
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11485,8 +11485,8 @@ MonoBehaviour:
   - {fileID: 2926088673985972330}
   - {fileID: 2926088673985972357}
   - {fileID: 2926088673985972331}
-  - {fileID: 2926088673985972368}
   - {fileID: 2926088673985972329}
+  - {fileID: 2926088673985972368}
   - {fileID: 2926088673985972364}
   suppressAllAutoSelections: 0
 --- !u!114 &2926088673985972352
