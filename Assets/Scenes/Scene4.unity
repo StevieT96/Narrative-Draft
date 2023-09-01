@@ -3586,8 +3586,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815868170}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 11.387985, y: -0.03872978, z: 0}
-  m_LocalScale: {x: 0.8424848, y: 1.1901937, z: 1}
+  m_LocalPosition: {x: 11.2939, y: -0.03872978, z: 0}
+  m_LocalScale: {x: 0.8572283, y: 1.1901937, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 949190170}
@@ -4415,6 +4415,8 @@ GameObject:
   - component: {fileID: 974776693}
   - component: {fileID: 974776692}
   - component: {fileID: 974776713}
+  - component: {fileID: 974776715}
+  - component: {fileID: 974776714}
   m_Layer: 0
   m_Name: Scene4 Flow
   m_TagString: Untagged
@@ -4449,7 +4451,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 974776402}
   selectedCommands:
-  - {fileID: 974776700}
+  - {fileID: 974776714}
   variables: []
   description: 
   stepPause: 0
@@ -4618,6 +4620,8 @@ MonoBehaviour:
   - {fileID: 974776694}
   - {fileID: 974776693}
   - {fileID: 974776692}
+  - {fileID: 974776714}
+  - {fileID: 974776715}
   suppressAllAutoSelections: 0
 --- !u!114 &974776683
 MonoBehaviour:
@@ -5432,6 +5436,52 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   parentBlock: {fileID: 974776396}
   suppressBlockAutoSelect: 0
+--- !u!114 &974776714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 330
+  indentLevel: 0
+  storyText: To be continued...
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 1
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
+--- !u!114 &974776715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 974776383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 00d03ae0919f04264b018681ed534177, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 329
+  indentLevel: 0
+  _sceneName:
+    stringRef: {fileID: 0}
+    stringVal: MenuScene
+  loadingImage: {fileID: 0}
+  sceneNameOLD: 
 --- !u!1 &987751276
 GameObject:
   m_ObjectHideFlags: 0
@@ -7250,14 +7300,14 @@ MonoBehaviour:
   nameColor: {r: 1, g: 1, b: 1, a: 1}
   soundEffect: {fileID: 0}
   portraits:
-  - {fileID: 21300000, guid: 2fa4a7d206a65cc45819a8ac1a1f61af, type: 3}
-  - {fileID: 21300000, guid: 7b5ea5e9c158fc74da9deae9192f6b5d, type: 3}
-  - {fileID: 21300000, guid: ecdfd36cefe18b64a9bec89c3961d3a2, type: 3}
-  - {fileID: 21300000, guid: ae5654abdbce59f43bef7b2b4f8615cc, type: 3}
-  - {fileID: 21300000, guid: 254784518d3e88943b7db8146759976a, type: 3}
-  - {fileID: 21300000, guid: eabb3eca03d4f3143b72440487065e61, type: 3}
-  - {fileID: 21300000, guid: 2d057c005a2967a4fbbedeab3fbbb420, type: 3}
   - {fileID: 21300000, guid: 891ac700ced01fd4ab04b32402ad7f28, type: 3}
+  - {fileID: 21300000, guid: 2d057c005a2967a4fbbedeab3fbbb420, type: 3}
+  - {fileID: 21300000, guid: eabb3eca03d4f3143b72440487065e61, type: 3}
+  - {fileID: 21300000, guid: 254784518d3e88943b7db8146759976a, type: 3}
+  - {fileID: 21300000, guid: ae5654abdbce59f43bef7b2b4f8615cc, type: 3}
+  - {fileID: 21300000, guid: ecdfd36cefe18b64a9bec89c3961d3a2, type: 3}
+  - {fileID: 21300000, guid: 7b5ea5e9c158fc74da9deae9192f6b5d, type: 3}
+  - {fileID: 21300000, guid: 2fa4a7d206a65cc45819a8ac1a1f61af, type: 3}
   portraitsFace: 0
   setSayDialog: {fileID: 0}
   description: 

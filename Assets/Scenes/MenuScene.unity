@@ -2132,6 +2132,9 @@ GameObject:
   - component: {fileID: 1887922380}
   - component: {fileID: 1887922382}
   - component: {fileID: 1887922381}
+  - component: {fileID: 1887922385}
+  - component: {fileID: 1887922384}
+  - component: {fileID: 1887922383}
   m_Layer: 0
   m_Name: Flowchart
   m_TagString: Untagged
@@ -2195,7 +2198,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 67
     y: 70
-    width: 113.157875
+    width: 117.04545
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -2205,6 +2208,7 @@ MonoBehaviour:
   eventHandler: {fileID: 1887922372}
   commandList:
   - {fileID: 1887922371}
+  - {fileID: 1887922385}
   - {fileID: 1887922382}
   suppressAllAutoSelections: 0
 --- !u!114 &1887922374
@@ -2220,11 +2224,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 130.26306, y: 167.38747}
+  scrollPos: {x: 29.243614, y: 157.52002}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
-  zoom: 0.7600002
+  zoom: 0.8800001
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -2232,7 +2236,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 1887922377}
+  - {fileID: 1887922373}
   selectedCommands: []
   variables: []
   description: 
@@ -2293,14 +2297,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 57.89479
-    y: 165.50711
-    width: 109.21051
+    x: 190.84927
+    y: 148.46161
+    width: 78.40909
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
   itemId: 2
-  blockName: New Block
+  blockName: Start
   description: 
   eventHandler: {fileID: 0}
   commandList:
@@ -2330,7 +2334,7 @@ MonoBehaviour:
   fadeTweenType: 4
 --- !u!114 &1887922381
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -2360,6 +2364,72 @@ MonoBehaviour:
   atTime: 0
   loop: 1
   fadeDuration: 1
+--- !u!114 &1887922383
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887922370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e1337544a71d4d5dab5510fe86ddca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 11
+  indentLevel: 0
+--- !u!114 &1887922384
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887922370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d3d73aef2cfc4f51abf34ac00241f60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nodeRect:
+    serializedVersion: 2
+    x: -11.409076
+    y: 156.1364
+    width: 73.86363
+    height: 40
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  useCustomTint: 0
+  itemId: 10
+  blockName: Quit
+  description: 
+  eventHandler: {fileID: 0}
+  commandList:
+  - {fileID: 1887922383}
+  suppressAllAutoSelections: 0
+--- !u!114 &1887922385
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887922370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 841589fc622bc494aa5405f416fa1301, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 9
+  indentLevel: 0
+  text: Quit
+  description: 
+  targetBlock: {fileID: 1887922384}
+  hideIfVisited: 0
+  interactable:
+    booleanRef: {fileID: 0}
+    booleanVal: 1
+  setMenuDialog: {fileID: 0}
+  hideThisOption:
+    booleanRef: {fileID: 0}
+    booleanVal: 0
 --- !u!1 &1899311101
 GameObject:
   m_ObjectHideFlags: 0
