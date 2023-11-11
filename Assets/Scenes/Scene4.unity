@@ -4451,7 +4451,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 974776402}
   selectedCommands:
-  - {fileID: 974776714}
+  - {fileID: 974776699}
   variables: []
   description: 
   stepPause: 0
@@ -4494,7 +4494,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81
     y: 146
-    width: 83
+    width: 83.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4581,7 +4581,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.51466
     y: 226
-    width: 77
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4736,7 +4736,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 305
   indentLevel: 0
-  storyText: We'll see about that hero...today's the day you fall.
+  storyText: We'll see about that hero... today's the day you fall.
   description: 
   character: {fileID: 1664493142}
   portrait: {fileID: 0}
@@ -5060,7 +5060,7 @@ MonoBehaviour:
   itemId: 321
   indentLevel: 0
   storyText: People are in awe of May's scenes, as they're exciting and it makes
-    them amped and her chemistry with the Hero's group is unrivaled.
+    them amped and her chemistry with the Hero's group is unrivalled.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

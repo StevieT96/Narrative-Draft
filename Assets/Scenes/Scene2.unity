@@ -4366,7 +4366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.299989, y: 0}
+  m_AnchoredPosition: {x: 0.0000009536743, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1155135582
@@ -7874,7 +7874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.18878
     y: 164.78165
-    width: 92.857155
+    width: 90.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8001,9 +8001,8 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 761310851510046622}
-  selectedCommands:
-  - {fileID: 2926088673985972307}
+  - {fileID: 2926088673985972276}
+  selectedCommands: []
   variables: []
   description: 
   stepPause: 0
@@ -8031,7 +8030,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299.25314
     y: 52.959244
-    width: 91.42858
+    width: 90.000015
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8192,7 +8191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: 'In today''s news, the movie star Greg, was stabbed in public today
+  storyText: 'In today''s news, the movie star Greg was stabbed in public today.
 
 
 '
@@ -8324,7 +8323,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 184
   indentLevel: 0
-  storyText: But regardless, this was a team effort and despite some tripups, we
+  storyText: But regardless, this was a team effort and despite some trip-ups, we
     still got there in the end!
   description: 
   character: {fileID: 1528113432}
@@ -8804,9 +8803,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 406.47412
-    y: 223.35307
-    width: 104.28573
+    x: 405.04556
+    y: 221.9245
+    width: 102.57144
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8969,9 +8968,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 195.04619
-    y: 229.06737
-    width: 85.714294
+    x: 193.61761
+    y: 227.6388
+    width: 84.28572
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9008,7 +9007,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 199
   indentLevel: 0
-  storyText: Oooh! I wander what I should get?
+  storyText: Oooh! I wonder what I should get?
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -9092,8 +9091,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: The manager then ponders on how they on how they should celebrate, wandering
-    on whether on taking her shopping or treating her to lunch.
+  storyText: The manager then ponders on how they should celebrate, wondering on
+    taking her shopping or treating her to lunch.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9293,7 +9292,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  storyText: Hehe...I'll try not to. Maybe ramen!
+  storyText: Hehe... I'll try not to. Maybe ramen!
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -9405,7 +9404,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: Eheh, don't try to wring my wallet dry...
+  storyText: Eheh, don't try to wring my wallet dry!
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -9516,7 +9515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 0
-  storyText: I'll take you shopping, I'll buy you whatever you want...As long as
+  storyText: I'll take you shopping, I'll buy you whatever you want... As long as
     it's in my budget.
   description: 
   character: {fileID: 1528113432}
@@ -9725,7 +9724,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &2926088673985972311
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}

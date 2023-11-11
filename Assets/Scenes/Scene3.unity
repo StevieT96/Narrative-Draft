@@ -4488,7 +4488,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 974776402}
   selectedCommands:
-  - {fileID: 974776510}
+  - {fileID: 974776440}
   variables: []
   description: 
   stepPause: 0
@@ -4531,7 +4531,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81
     y: 146
-    width: 83
+    width: 83.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4670,7 +4670,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.78049
     y: 230
-    width: 77
+    width: 77.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4885,8 +4885,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: As they're walking they pass by scenes of overexcited people doing handshakes
-    for their favorite idols.
+  storyText: As they're walking they pass by scenes of idols shaking hands for their
+    overexcited fans.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5478,7 +5478,7 @@ MonoBehaviour:
   itemId: 36
   indentLevel: 0
   storyText: They have to keep calm and keep appearances up so that they don't deviate
-    from their designated image is.
+    from their designated image.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5952,7 +5952,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 64
   indentLevel: 0
-  storyText: Really really!?
+  storyText: Really, really!?
   description: 
   character: {fileID: 1561237683}
   portrait: {fileID: 0}
@@ -7217,7 +7217,7 @@ MonoBehaviour:
   itemId: 112
   indentLevel: 0
   storyText: The state of things... Sometimes I question why these events have to
-    be mandatory for us...
+    be mandatory for us.
   description: 
   character: {fileID: 567257113}
   portrait: {fileID: 0}

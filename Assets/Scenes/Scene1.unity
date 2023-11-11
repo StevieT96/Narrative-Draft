@@ -4619,7 +4619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.299989, y: 0}
+  m_AnchoredPosition: {x: 0.0000009536743, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1155135582
@@ -7959,7 +7959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.6173
     y: 170.49594
-    width: 92.857155
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -7984,6 +7984,7 @@ MonoBehaviour:
   - {fileID: 2926088673985972250}
   - {fileID: 2926088673985972248}
   - {fileID: 2926088673985972247}
+  - {fileID: 2926088673985972376}
   - {fileID: 2926088673985972246}
   - {fileID: 2926088673985972245}
   - {fileID: 2926088673985972244}
@@ -8111,18 +8112,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -156.1472, y: 95.20882}
+  scrollPos: {x: -150.58862, y: -44.68219}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 412
-  zoom: 0.6999998
+  zoom: 1
   scrollViewRect:
     serializedVersion: 2
     x: -343
     y: -340
     width: 1114
     height: 859
-  selectedBlocks: []
+  selectedBlocks:
+  - {fileID: 2926088673985972283}
   selectedCommands: []
   variables: []
   description: 
@@ -8151,7 +8153,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 313.53882
     y: 52.959244
-    width: 91.42858
+    width: 90
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8332,6 +8334,7 @@ GameObject:
   - component: {fileID: 2926088673985972370}
   - component: {fileID: 2926088673985972369}
   - component: {fileID: 2926088673985972375}
+  - component: {fileID: 2926088673985972376}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -8463,7 +8466,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: BEEP BEEP RING RING
+  storyText: BEEP BEEP RING RING!
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8517,7 +8520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 180
   indentLevel: 0
-  storyText: The phone is hung up and May jumps for joy and pumps her fist and then
+  storyText: The phone is hung up and May jumps for joy, pumps her fist and then
     soon excitedly calls the manager immediately after.
   description: 
   character: {fileID: 0}
@@ -8653,8 +8656,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 175
   indentLevel: 0
-  storyText: Ahem, You're not there yet, there's still an audition you know, how
-    soon can you come in?
+  storyText: Ahem, You're not there yet, there's still an audition you know.
   description: 
   character: {fileID: 357746195}
   portrait: {fileID: 0}
@@ -9257,7 +9259,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 0
-  storyText: Lucky no.7, that's you.
+  storyText: Lucky number 7, that's you.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -9311,7 +9313,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 211
   indentLevel: 0
-  storyText: '{punch=10,0.5} "Next auditionee! No.7! "'
+  storyText: '{punch=10,0.5} "Next auditionee! Number 7! "'
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9339,7 +9341,7 @@ MonoBehaviour:
   itemId: 210
   indentLevel: 0
   storyText: Both the manager and May end up feeling a bit more comfortable and ready
-    for the audition. then soon after...
+    for the audition. Then soon after...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9424,7 +9426,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: Thanks manager...I feel more ready now.
+  storyText: Thanks manager... I feel more ready now.
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -9591,8 +9593,8 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 312.18863
-    y: 314.7822
-    width: 97.14287
+    y: 315.7822
+    width: 97.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9643,9 +9645,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 190.76013
+    x: 189.76013
     y: 230.49594
-    width: 102.85716
+    width: 103.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9713,7 +9715,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 425.04556
     y: 229.06737
-    width: 95.714294
+    width: 94.8
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9779,7 +9781,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: I just hope I got my practice in...
+  storyText: I just hope I got my practice in.
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -10188,7 +10190,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 234
   indentLevel: 0
-  storyText: Lucky no.7, that's you.
+  storyText: Lucky number 7, that's you.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -11237,7 +11239,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.18875
     y: 411.9246
-    width: 100.000015
+    width: 99.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11322,9 +11324,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 172.07587
+    x: 171.07587
     y: 397.75153
-    width: 92.857155
+    width: 93.2
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11409,7 +11411,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 456.4742
     y: 396.21014
-    width: 105.7143
+    width: 106
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11471,7 +11473,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.55734
     y: 508.6164
-    width: 107.14287
+    width: 107.6
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -11505,7 +11507,7 @@ MonoBehaviour:
   indentLevel: 0
   storyText: May then nervously looks back at the manager for moment.
   description: 
-  character: {fileID: 1528113432}
+  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -11741,7 +11743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 344
   indentLevel: 0
-  storyText: I see, and you picked this role for inspiration...
+  storyText: I see, and you picked this role for inspiration.
   description: 
   character: {fileID: 1853135023}
   portrait: {fileID: 0}
@@ -12045,3 +12047,30 @@ MonoBehaviour:
   volume: 0.75
   fadeDuration: 1
   waitUntilFinished: 1
+--- !u!114 &2926088673985972376
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 362
+  indentLevel: 0
+  storyText: How soon can you come in?
+  description: 
+  character: {fileID: 357746195}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
