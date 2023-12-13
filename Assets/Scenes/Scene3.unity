@@ -2757,8 +2757,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883929325}
   m_HandleRect: {fileID: 883929324}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.6263855
+  m_Value: 1.0000001
+  m_Size: 0.63179475
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -3940,7 +3940,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751749436}
   m_HandleRect: {fileID: 751749435}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4366,7 +4366,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.299989, y: 0}
+  m_AnchoredPosition: {x: 0.000031471252, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1155135582
@@ -7874,7 +7874,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 302.18878
     y: 164.78165
-    width: 90.000015
+    width: 92.857155
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8003,7 +8003,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 2926088673985972276}
   selectedCommands:
-  - {fileID: 2926088673985972280}
+  - {fileID: 2926088673985972291}
   variables: []
   description: 
   stepPause: 0
@@ -8031,7 +8031,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 299.25314
     y: 52.959244
-    width: 90.000015
+    width: 91.42858
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8192,10 +8192,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 169
   indentLevel: 0
-  storyText: 'In today''s news, the movie star Greg was stabbed in public today.
-
-
-'
+  storyText: In today's news, the movie star Greg, was stabbed in public today.
   description: 
   character: {fileID: 357746195}
   portrait: {fileID: 0}
@@ -8379,8 +8376,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 182
   indentLevel: 0
-  storyText: It is shown on the table that there is a torn open letter with the paper
-    unfolded.
+  storyText: On the table there is a torn open envelope, the contained letter unfolded
+    and lying on top.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8464,7 +8461,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 179
   indentLevel: 0
-  storyText: Anything for the top client.
+  storyText: Anything for my top client.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -8629,7 +8626,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 173
   indentLevel: 0
-  storyText: He was in a role in the show Singly where he played a single man trying
+  storyText: He had a role in the show Singly where he played a single man trying
     to avoid getting in a love triangle as...
   description: 
   character: {fileID: 357746195}
@@ -8685,11 +8682,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 171
   indentLevel: 0
-  storyText: 'It was said to be a "crime of passion" as the woman, mid 20s had shouted
-    that he had betrayed his fans by having a girlfriend.
-
-
-'
+  storyText: It was said to be a "crime of passion" as the murderer, a woman in her
+    mid-20s, had shouted that Greg had betrayed his fans by having a girlfriend.
   description: 
   character: {fileID: 357746195}
   portrait: {fileID: 0}
@@ -8716,8 +8710,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 170
   indentLevel: 0
-  storyText: The news reports transitions to see a man lying on the ground lifeless,
-    as people are trying to surround him and police and ambulance are on the scene.
+  storyText: The news report transitions to show a man lying on the ground lifeless,
+    as people surround him with the police and ambulance on the scene.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8806,7 +8800,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 405.04556
     y: 221.9245
-    width: 102.57144
+    width: 104.28573
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8916,8 +8910,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 196
   indentLevel: 0
-  storyText: Rin hesitates slightly at her item options, but they decide to take
-    her out anyway.
+  storyText: "Rin hesitates slightly at May\u2019s item options, but she decides
+    to take May out anyway."
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8971,7 +8965,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 193.61761
     y: 227.6388
-    width: 84.28572
+    width: 85.714294
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9092,8 +9086,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: Rin then ponders on how they should celebrate, wondering on taking her
-    shopping or treating her to lunch.
+  storyText: Rin then ponders on how they should celebrate, wondering whether she
+    should take May shopping or treat her to lunch.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9239,7 +9233,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 212
   indentLevel: 0
-  storyText: And so Rin and May head out into town.
+  storyText: Rin and May head out into town.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9405,7 +9399,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 207
   indentLevel: 0
-  storyText: Eheh, don't try to wring my wallet dry!
+  storyText: Eheh, try not to to wring my wallet dry...
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -9516,8 +9510,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 213
   indentLevel: 0
-  storyText: I'll take you shopping, I'll buy you whatever you want... As long as
-    it's in my budget.
+  storyText: I'll take you shopping. I'll buy you whatever you want... As long as
+    it's within my budget.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -9571,7 +9565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 223
   indentLevel: 0
-  storyText: 'It took us a while, but we got there.
+  storyText: 'It took us a while, but we got there in the end.
 
 
 '

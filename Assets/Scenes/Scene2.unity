@@ -2758,8 +2758,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883929325}
   m_HandleRect: {fileID: 883929324}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.6263855
+  m_Value: 1.0000001
+  m_Size: 0.63179475
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4193,7 +4193,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751749436}
   m_HandleRect: {fileID: 751749435}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4619,7 +4619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.299989, y: 0}
+  m_AnchoredPosition: {x: 0.000031471252, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1155135582
@@ -7959,7 +7959,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5864
     y: 170.49594
-    width: 88.29787
+    width: 89.47367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8052,11 +8052,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: -235.84555, y: 343.78754}
+  scrollPos: {x: -160.31987, y: 55.755493}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 400
-  zoom: 0.94000006
+  blockViewHeight: 512
+  zoom: 0.7600002
   scrollViewRect:
     serializedVersion: 2
     x: -343
@@ -8064,7 +8064,7 @@ MonoBehaviour:
     width: 1114
     height: 859
   selectedBlocks:
-  - {fileID: 2926088673985972136}
+  - {fileID: 2926088673985972282}
   selectedCommands: []
   variables: []
   description: 
@@ -8093,7 +8093,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.5079
     y: 52.959244
-    width: 89.14893
+    width: 89.47367
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8202,7 +8202,6 @@ GameObject:
   - component: {fileID: 2926088673985972315}
   - component: {fileID: 2926088673985972314}
   - component: {fileID: 2926088673985972327}
-  - component: {fileID: 2926088673985972354}
   - component: {fileID: 2926088673985972353}
   - component: {fileID: 2926088673985972352}
   - component: {fileID: 2926088673985972351}
@@ -8263,7 +8262,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 190
   indentLevel: 0
-  storyText: It'll be okay I promise.
+  storyText: It'll be okay, I promise.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -8290,7 +8289,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 189
   indentLevel: 0
-  storyText: She looks very nervous, as she's next to in line for her audition.
+  storyText: May looks very nervous, as she is next in line for her audition.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8397,8 +8396,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 220
   indentLevel: 0
-  storyText: She looks visibly nervous, but is determined to go through with the
-    audition.
+  storyText: 'May looks visibly nervous but she is determined to go through with
+    the audition. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8425,8 +8424,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 219
   indentLevel: 0
-  storyText: May and Rin step forward from their chair and move into the audition
-    room, where the view of the auditioners gaze at them quietly.
+  storyText: May and Rin step forward from their chairs and move into the audition
+    room, where the auditioners gaze at them quietly.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8585,7 +8584,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 212
   indentLevel: 0
-  storyText: A voice then calls out from the door.
+  storyText: 'Soon after, a voice calls out from the door. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8639,8 +8638,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 210
   indentLevel: 0
-  storyText: Both Rin and May end up feeling a bit more comfortable and ready for
-    the audition. Then soon after...
+  storyText: 'Rin and May both ended up feeling a bit more comfortable and ready
+    for the audition. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8667,8 +8666,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 209
   indentLevel: 0
-  storyText: That's good, now you're a bit more calm and ready. I know you can do
-    this.
+  storyText: Good, now you're a bit more calm and ready for this. I know you can
+    do this.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -8782,8 +8781,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 205
   indentLevel: 0
-  storyText: May then follows suit and they do some deep breathing together. Which
-    makes May feel better.
+  storyText: 'May follows suit and they do some deep breathing together, making May
+    feel a bit better. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8837,7 +8836,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 203
   indentLevel: 0
-  storyText: Rin then closes their eyes and then breathes in deeply.
+  storyText: Rin then closes her eyes and then breathes in deeply.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8864,7 +8863,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 202
   indentLevel: 0
-  storyText: You should calm down, just follow after me and take some deep breaths.
+  storyText: You should calm down, just follow me and take some deep breaths.
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -8893,7 +8892,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.18863
     y: 315.7822
-    width: 95.95744
+    width: 93.421036
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -8923,7 +8922,6 @@ MonoBehaviour:
   - {fileID: 2926088673985972316}
   - {fileID: 2926088673985972315}
   - {fileID: 2926088673985972314}
-  - {fileID: 2926088673985972354}
   - {fileID: 2926088673985972353}
   - {fileID: 2926088673985972352}
   - {fileID: 2926088673985972340}
@@ -8946,7 +8944,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 189.76013
     y: 230.49594
-    width: 101.06383
+    width: 101.31577
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9014,7 +9012,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 425.04556
     y: 229.06737
-    width: 93.40425
+    width: 92.105255
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -9080,7 +9078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 192
   indentLevel: 0
-  storyText: I just hope I got my practice in.
+  storyText: I just hope I got enough practice in.
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -9308,7 +9306,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 241
   indentLevel: 0
-  storyText: Name and the role you're applying for please.
+  storyText: Your name and the role you're applying for please.
   description: 
   character: {fileID: 1853135023}
   portrait: {fileID: 0}
@@ -9335,8 +9333,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 240
   indentLevel: 0
-  storyText: Both Rin and May end up feeling a bit more comfortable and ready for
-    the audition, then soon after...
+  storyText: 'Rin and May both ended up feeling a bit more comfortable and ready
+    for the audition. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9543,7 +9541,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 232
   indentLevel: 0
-  storyText: A voice then calls out from the door.
+  storyText: 'Soon after, a voice calls out from the door. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9600,7 +9598,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 230
   indentLevel: 0
-  storyText: Okay if you say so. Then I can do this!
+  storyText: Okay, if you say so... Then I can do this!
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -9627,7 +9625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 229
   indentLevel: 0
-  storyText: The sudden action surprises May, but it makes her feel a little more
+  storyText: This sudden action surprises May, but it makes her feel a little more
     at ease.
   description: 
   character: {fileID: 0}
@@ -9682,7 +9680,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 227
   indentLevel: 0
-  storyText: Rin then tries to pump her up by holding her hands.
+  storyText: Rin then tries to pump May up by holding her hands.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9766,8 +9764,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 223
   indentLevel: 0
-  storyText: Don't worry, you've done all you can and the people that you've shown
-    your work to believe in it.
+  storyText: "Don't worry May. You've done all you can to prepare and I\u2019m sure
+    that the auditioners will be able to see the amount of effort that you've put
+    in.\u201D"
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -9794,7 +9793,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 259
   indentLevel: 0
-  storyText: The interviewer gives a clap that's the equivalent of a golf clap.
+  storyText: The auditioners give a slow polite clap before moving to the interview
+    phase and beginning questioning.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9908,8 +9908,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 255
   indentLevel: 0
-  storyText: But the interviewer seems impressed by what she's doing before she finishes
-    her performance with a flashy pose.
+  storyText: but the interviewer seems to be impressed by how she is acting. May
+    finishes up her performance with a flashy pose before facing the auditioners.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -10050,7 +10050,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 249
   indentLevel: 0
-  storyText: Okay. You have the script with you. Please act out the allotted scene
+  storyText: Okay. You have the script with you, please act out the allotted scene
     in the script please.
   description: 
   character: {fileID: 1853135023}
@@ -10455,7 +10455,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 312.18875
     y: 411.9246
-    width: 100.21277
+    width: 97.36841
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10542,7 +10542,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 171.07587
     y: 397.75153
-    width: 91.702126
+    width: 90.78946
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10627,7 +10627,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 456.4742
     y: 396.21014
-    width: 105.319145
+    width: 102.63156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10689,7 +10689,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 309.55734
     y: 508.6164
-    width: 106.17021
+    width: 102.63156
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -10751,34 +10751,6 @@ MonoBehaviour:
   storyText: So why did you want to be in this role in the first place?
   description: 
   character: {fileID: 1853135023}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &2926088673985972354
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2926088673985972138}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 264
-  indentLevel: 0
-  storyText: It's now the interview phase of the audition, and they start asking
-    May some questions.
-  description: 
-  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -10986,7 +10958,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 343
   indentLevel: 0
-  storyText: I see, A tough girl huh?
+  storyText: I see, a tough girl huh?
   description: 
   character: {fileID: 1853135023}
   portrait: {fileID: 0}
@@ -11046,7 +11018,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 360
   indentLevel: 0
-  storyText: Rin then tries to make her feel better.
+  storyText: Rin tries to make her feel better.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}

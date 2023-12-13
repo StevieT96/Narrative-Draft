@@ -4359,7 +4359,6 @@ GameObject:
   - component: {fileID: 974776400}
   - component: {fileID: 974776408}
   - component: {fileID: 974776414}
-  - component: {fileID: 974776420}
   - component: {fileID: 974776419}
   - component: {fileID: 974776417}
   - component: {fileID: 974776418}
@@ -4475,7 +4474,7 @@ MonoBehaviour:
   scrollPos: {x: 7.6350555, y: 24.638947}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
-  blockViewHeight: 401
+  blockViewHeight: 456
   zoom: 1
   scrollViewRect:
     serializedVersion: 2
@@ -4486,7 +4485,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 974776402}
   selectedCommands:
-  - {fileID: 974776471}
+  - {fileID: 974776501}
   variables: []
   description: 
   stepPause: 0
@@ -4529,7 +4528,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 81
     y: 146
-    width: 83.6
+    width: 83
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4639,7 +4638,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 15
   indentLevel: 0
-  storyText: May and Rin have set off into town are walking around together.
+  storyText: May and Rin are walking around town together, discussing the potential
+    of what they can do now that May has a major role in such a big series.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4668,7 +4668,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 83.78049
     y: 230
-    width: 77.2
+    width: 77
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
   useCustomTint: 0
@@ -4681,7 +4681,6 @@ MonoBehaviour:
   - {fileID: 974776469}
   - {fileID: 974776408}
   - {fileID: 974776401}
-  - {fileID: 974776420}
   - {fileID: 974776419}
   - {fileID: 974776425}
   - {fileID: 974776424}
@@ -4832,8 +4831,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 29
   indentLevel: 0
-  storyText: Some people are even trying to go for a hug, which isn't safe for them
-    or the idol.
+  storyText: Some people are even trying to go for a hug, which isn't safe for the
+    stars or the idols.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4881,8 +4880,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 26
   indentLevel: 0
-  storyText: As they're walking they pass by scenes of idols shaking hands for their
-    overexcited fans.
+  storyText: As they're walking, they pass by scenes of idols shaking hands with
+    their overexcited fans.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -4939,38 +4938,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 25
   indentLevel: 0
-  storyText: So at this rate I could go to all sorts of signings and see the happiness
-    of my fans!
+  storyText: And then, I could go to all sorts of signings and see how happy my fans
+    are!
   description: 
   character: {fileID: 1664493142}
-  portrait: {fileID: 0}
-  voiceOverClip: {fileID: 0}
-  showAlways: 1
-  showCount: 1
-  extendPrevious: 0
-  fadeWhenDone: 1
-  waitForClick: 1
-  stopVoiceover: 1
-  waitForVO: 0
-  setSayDialog: {fileID: 0}
---- !u!114 &974776420
-MonoBehaviour:
-  m_ObjectHideFlags: 2
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 974776383}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  itemId: 24
-  indentLevel: 0
-  storyText: They are discussing the potential of what she can do now that she's
-    got a major role in such a big series.
-  description: 
-  character: {fileID: 0}
   portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
@@ -5053,8 +5024,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 34
   indentLevel: 0
-  storyText: She doesn't hear him as she's in a very talkative state and she continues
-    on.
+  storyText: May doesn't hear her as she's in a very talkative state and she continues.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5122,7 +5092,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 49
   indentLevel: 0
-  storyText: Yeah! I believe with 100%... No! 1000% certainty that I'll be good!
+  storyText: Yeah! I believe with 100%... No! 1000% certainty that I'll be alright!
   description: 
   character: {fileID: 1664493142}
   portrait: {fileID: 0}
@@ -5149,7 +5119,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 48
   indentLevel: 0
-  storyText: I see, that's good, but you're gonna be okay with this role right?
+  storyText: I see, that's good, but you're gonna be okay with this role, right?
   description: 
   character: {fileID: 1083099142}
   portrait: {fileID: 0}
@@ -5224,8 +5194,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 42
   indentLevel: 0
-  storyText: It unnerves the idol a little, but the handshaking event continues in
-    the background as the manager and May walk and talk.
+  storyText: The idol seems unnerved by the sight, but they remain calm, and the
+    handshaking event continues in the background as Rin and May walk and talk.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5334,7 +5304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 39
   indentLevel: 0
-  storyText: The fan tries to jump on them for a hug, but.
+  storyText: The fan tries to jump on them for a hug, but...
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5472,7 +5442,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 52
   indentLevel: 0
-  storyText: Papa!
+  storyText: Mama!
   description: 
   character: {fileID: 1561237683}
   portrait: {fileID: 0}
@@ -5499,8 +5469,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 51
   indentLevel: 0
-  storyText: As they walk, the manager notices someone who is waving and running
-    to them.
+  storyText: As they walk, Rin notices someone who is waving and running to them.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5669,7 +5638,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 73
   indentLevel: 0
-  storyText: The child looks up to see May, looking at them curiously.
+  storyText: The child looks up to see May, staring at her curiously.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5753,8 +5722,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 70
   indentLevel: 0
-  storyText: The manager and the child make a pinky promise, but soon after the child
-    notices someone.
+  storyText: Rin and the child make a pinkie promise, but soon after the child notices
+    May.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5781,7 +5750,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 67
   indentLevel: 0
-  storyText: I promise I won't forget about you ever.
+  storyText: I promise I won't forget about you ever again.
   description: 
   character: {fileID: 1083099142}
   portrait: {fileID: 0}
@@ -5808,7 +5777,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 66
   indentLevel: 0
-  storyText: Okay. Pinky promise!
+  storyText: Okay! Pinky promise!
   description: 
   character: {fileID: 1561237683}
   portrait: {fileID: 0}
@@ -5865,7 +5834,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 65
   indentLevel: 0
-  storyText: The manager nods thoroughly in response to their gaze.
+  storyText: Rin nods thoroughly in response to their gaze.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -5946,7 +5915,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 62
   indentLevel: 0
-  storyText: The child gives a big glare to her parent.
+  storyText: The child gives a big glare to Rin.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6000,7 +5969,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 60
   indentLevel: 0
-  storyText: R-right right... I'm sorry I promise i'll make it up to you.
+  storyText: R-right right... I'm sorry, I promise i'll make it up to you.
   description: 
   character: {fileID: 1083099142}
   portrait: {fileID: 0}
@@ -6111,8 +6080,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 56
   indentLevel: 0
-  storyText: Rin kneels down to allow the kid to hug them, and they run into the
-    manager but then they punch them in the chest.
+  storyText: Rin kneels down to allow the kid to hug them, but as they run towards
+    Rin, the kid reaches out their fist and punches Rin in the chest.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6235,7 +6204,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 87
   indentLevel: 0
-  storyText: Well... People tend not to ask me too much about stuff.
+  storyText: Well... People tend not to ask me too much about personal stuff.
   description: 
   character: {fileID: 1083099142}
   portrait: {fileID: 0}
@@ -6289,7 +6258,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 82
   indentLevel: 0
-  storyText: Sorry, this is my kiddo, she's an energetic one.
+  storyText: Sorry, this is my kid, she's an energetic one.
   description: 
   character: {fileID: 1083099142}
   portrait: {fileID: 0}
@@ -6316,7 +6285,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 86
   indentLevel: 0
-  storyText: While May looks at the manager in minor curiosity.
+  storyText: While May looks at Rin in minor curiosity.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6512,7 +6481,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 95
   indentLevel: 0
-  storyText: The child looks at her parent urgingly, who sighs and nods at her.
+  storyText: The child looks at Rin urgingly, who sighs and nods reluctantly.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -6596,7 +6565,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 90
   indentLevel: 0
-  storyText: May smiles at the child, she's the kind of audience that she wants to
+  storyText: May smiles at the child, she's the kind of audience that May wants to
     appeal to.
   description: 
   character: {fileID: 0}
@@ -6966,8 +6935,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 105
   indentLevel: 0
-  storyText: The star makes it to his vehicle after much trouble of fans trying to
-    touch and or grab a lock of his hair or take photos.
+  storyText: The star makes it to his vehicle after much trouble with fans trying
+    to grab a lock of his hair or take photos.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7082,8 +7051,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 115
   indentLevel: 0
-  storyText: But it doesn't matter for May. She's achieved one of her goals, and
-    she is over the moon.
+  storyText: It doesn't matter to May, as she's achieved one of her goals, and she
+    is over the moon.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -7110,8 +7079,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 114
   indentLevel: 0
-  storyText: May, Rin and his kid then go on a stroll at the park, derailing the
-    plans May and manager had for the day.
+  storyText: May, Rin, and her kid then go for a stroll at the park, derailing the
+    plans May and Rin had for the day.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -9235,8 +9204,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1005104783}
   m_HandleRect: {fileID: 1005104782}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.6263855
+  m_Value: 1.0000001
+  m_Size: 0.63179475
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:

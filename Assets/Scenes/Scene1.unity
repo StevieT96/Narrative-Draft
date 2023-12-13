@@ -2758,8 +2758,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 883929325}
   m_HandleRect: {fileID: 883929324}
   m_Direction: 2
-  m_Value: 1
-  m_Size: 0.6263855
+  m_Value: 1.0000001
+  m_Size: 0.63179475
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -4193,7 +4193,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 751749436}
   m_HandleRect: {fileID: 751749435}
   m_Direction: 0
-  m_Value: 0
+  m_Value: 1
   m_Size: 1
   m_NumberOfSteps: 0
   m_OnValueChanged:
@@ -4619,7 +4619,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 14.299989, y: 0}
+  m_AnchoredPosition: {x: 0.000031471252, y: 0}
   m_SizeDelta: {x: -14.299988, y: 0}
   m_Pivot: {x: 0, y: 1}
 --- !u!114 &1155135582
@@ -7990,6 +7990,7 @@ MonoBehaviour:
   - {fileID: 2926088673985972244}
   - {fileID: 2926088673985972243}
   - {fileID: 2926088673985972242}
+  - {fileID: 2926088673985972380}
   - {fileID: 2926088673985972261}
   - {fileID: 2926088673985972240}
   - {fileID: 2926088673985972241}
@@ -8116,7 +8117,7 @@ MonoBehaviour:
   selectedBlocks:
   - {fileID: 761310851510046622}
   selectedCommands:
-  - {fileID: 2926088673985972242}
+  - {fileID: 2926088673985972325}
   variables: []
   description: 
   stepPause: 0
@@ -8223,6 +8224,7 @@ GameObject:
   - component: {fileID: 2926088673985972376}
   - component: {fileID: 2926088673985972378}
   - component: {fileID: 2926088673985972379}
+  - component: {fileID: 2926088673985972380}
   m_Layer: 0
   m_Name: MainFlow
   m_TagString: MainFlowchart
@@ -8296,8 +8298,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 167
   indentLevel: 0
-  storyText: May, the protagonist is walking around the streets when she gets a call
-    from her phone, she picks up.
+  storyText: 'May, the protagonist, is walking around the streets when she gets a
+    call from her phone. She picks up and answers the call. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8408,8 +8410,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 180
   indentLevel: 0
-  storyText: The phone is hung up and May jumps for joy, pumps her fist and then
-    soon excitedly calls her manager, Rin immediately after.
+  storyText: 'As soon as she hangs up, May jumps for joy, pumping her fist in the
+    air with excitement. '
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8490,7 +8492,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 177
   indentLevel: 0
-  storyText: Good, the audition is in three days on Friday 3pm, so be ready for it!
+  storyText: Good, your audition will be in three days on Friday at 3pm, so be ready
+    for it!
   description: 
   character: {fileID: 357746195}
   portrait: {fileID: 0}
@@ -8517,7 +8520,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 176
   indentLevel: 0
-  storyText: I can go in as soon as possible!
+  storyText: I can come in as soon as possible!
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -8544,7 +8547,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 175
   indentLevel: 0
-  storyText: Ahem, You're not there yet, there's still an audition you know.
+  storyText: Ahem! You're not there yet, there's still an audition you know.
   description: 
   character: {fileID: 357746195}
   portrait: {fileID: 0}
@@ -8658,8 +8661,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 171
   indentLevel: 0
-  storyText: Hi this is studio 7. You've been accepted into an audition in our huge
-    fantasy series as the Hero's Ninja!
+  storyText: Hi, this is Studio 7. You've been accepted for an audition to play the
+    Hero's Ninja in our huge fantasy series
   description: 
   character: {fileID: 357746195}
   portrait: {fileID: 0}
@@ -8740,7 +8743,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 185
   indentLevel: 0
-  storyText: I-I got the audition! They told me to come in 3pm tomorrow!
+  storyText: I-I got the audition! They told me to come in at 3pm on Friday!
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -8828,7 +8831,7 @@ MonoBehaviour:
   itemId: 261
   indentLevel: 0
   storyText: May and Rin talk excitedly about their audition plans as the next few
-    days flies by.
+    days fly by.
   description: 
   character: {fileID: 0}
   portrait: {fileID: 0}
@@ -8855,7 +8858,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 260
   indentLevel: 0
-  storyText: Oh! congratulations! This is a huge opportunity for us!
+  storyText: Oh, congratulations! This is a huge opportunity for us!
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -8960,8 +8963,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 357
   indentLevel: 0
-  storyText: I'm a little nervous, but I promise I'll smash this out of the park
-    this time!
+  storyText: I'm a little nervous, but I promise I'll smash it out of the park this
+    time!
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -8988,7 +8991,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 356
   indentLevel: 0
-  storyText: Ahaha! We're not there yet, we're just at one more hurdle to go.
+  storyText: "Ahaha! We aren\u2019t there just yet, we\u2019ve still got one more
+    hurdle to go."
   description: 
   character: {fileID: 1528113432}
   portrait: {fileID: 0}
@@ -9015,7 +9019,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemId: 355
   indentLevel: 0
-  storyText: I've worked so hard for this major character role and it paid off!
+  storyText: I've worked so hard for this role, and it's finally paid off!
   description: 
   character: {fileID: 1163455885}
   portrait: {fileID: 0}
@@ -9111,3 +9115,31 @@ MonoBehaviour:
     stringVal: Scene2
   loadingImage: {fileID: 0}
   sceneNameOLD: 
+--- !u!114 &2926088673985972380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2926088673985972138}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec422cd568a9c4a31ad7c36d0572b9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemId: 366
+  indentLevel: 0
+  storyText: Once May finishes celebrating, she hurriedly calls her manager, Rin,
+    to tell her the news.
+  description: 
+  character: {fileID: 0}
+  portrait: {fileID: 0}
+  voiceOverClip: {fileID: 0}
+  showAlways: 1
+  showCount: 1
+  extendPrevious: 0
+  fadeWhenDone: 0
+  waitForClick: 1
+  stopVoiceover: 1
+  waitForVO: 0
+  setSayDialog: {fileID: 0}
